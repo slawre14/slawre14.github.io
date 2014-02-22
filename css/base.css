@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-size: 24px;
+    color: blue;
+}
+
+p { 
+    font-family: arial, helvetica, sans-serif; 
+    font-size: 16px;
+    line-height:24px;
+}
+
+img{
+    border: 5px solid #cccccc;
+    margin:20px;
+    padding:20px; /* TRouBLe */
+    width: 100%
+}
+
