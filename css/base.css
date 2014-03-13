@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    margin: 20px;
+    padding: 0%;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
 
 
 header {
-    background-color: #000000;
+    background-color: #003366;
     color: #ffffff;
     height: 80px; 
     
@@ -21,10 +21,14 @@ header {
 header h1 {
     float: left;
     font-family: helvetica, arial, sans-serif;
-    font-size: 65px; 
-    font-weight: 500;
-    padding: 23px; /* TRouBLe */
-    align-content:center; 
+    font-size: 60px;; 
+    margin-left:30%;
+    margin-bottom:1%;
+    margin-right: 30%;
+    margin-top:2.5%;
+    align-self:center;
+    
+    
 }
 
 nav {
@@ -32,37 +36,35 @@ nav {
     margin-top: 10px; 
 }
 
-header h3 {
-}
-header a { 
+nav a { 
     margin-right: 20px; 
-    color: #aaaaaa;
+    color: #003366;
     text-decoration: none;
 }
 
-header a:hover {
-    color: #ffffff;
+nav a:hover {
+    color: #FF3300;
 }
 
 article {
     clear: both;
-    padding: 0 10px 0 10px;
+    margin: 0 0px 0 10px;
 }
 
-article h1 {
+article h2 {
     font-size: 36px;
     line-height: 44px;
     margin-top: 10px;
 }
 
-article h2 {
-    font-size: 24px;
+article h3 {
+    font-size: 20px;
     line-height: 24px;
     margin-bottom: 4px;
 }
 
 aside {
-    margin: 10px 15px 5px 0;
+    margin: 10px 15px 5px 10px;
     
     float:left;
     
