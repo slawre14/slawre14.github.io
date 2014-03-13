@@ -19,21 +19,17 @@ header {
 }
 
 header h1 {
-    float: left;
-    font-family: helvetica, arial, sans-serif;
-    font-size: 60px;; 
-    margin-left:30%;
-    margin-bottom:1%;
-    margin-right: 30%;
-    margin-top:2.5%;
-    align-self:center;
+    font-size: 65px;
+    text-align:center;
     
-    
+    padding:2.5%;
+            
 }
 
 nav {
-    align-content: center;  
-    margin-top: 10px; 
+    
+    margin-top: 10px;
+    text-align:center
 }
 
 nav a { 
@@ -79,6 +75,11 @@ footer {
 
 @media screen  and (max-width: 600px) {
     
+    header {
+        font-size-adjust:auto;
+        font-size:20px;
+        
+    }
     body {
         padding:5%
     }
