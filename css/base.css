@@ -29,7 +29,8 @@ header h1 {
 nav {
     
     margin-top: 10px;
-    text-align:center
+    text-align:center;
+    font-weight:700;
 }
 
 nav a { 
@@ -70,7 +71,8 @@ footer {
     clear: both;
     font-size: 12px; 
     padding: 0 10px 0 10px; 
-    
+    text-align:center;
+        
 }
 
 @media screen  and (max-width: 600px) {
