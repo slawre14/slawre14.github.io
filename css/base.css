@@ -67,6 +67,14 @@ aside {
     
 }
 
+#resume { 
+        margin: 0px;
+        font-size: 14px;
+        line-height:15px;
+    
+}
+
+
 footer { 
     clear: both;
     font-size: 12px; 
