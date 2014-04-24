@@ -9,7 +9,7 @@ body {
     margin-right:10%;
     font-family: georgia, serif;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 26px;
 }
 
 
@@ -17,7 +17,6 @@ header {
     background-color: #003366;
     color: #ffffff;
   
-        
 }
 
 header h1 {
@@ -28,9 +27,11 @@ header h1 {
     padding: 2%;
 }
 
+
 nav {
     text-align:center;
     font-weight:700;
+    margin-bottom:10px;
 }
 
 nav a { 
@@ -45,55 +46,96 @@ nav a:hover {
     color: #FF3300;
 }
 
+h2 {
+    margin-bottom: 10px;
+    font-size: 35px;
+    line-height:40px;
+}
+
+h3 {
+    font-style:italic;
+}
+
+h4 {
+    margin-left:40px;
+    text-decoration:underline;
+    
+}
+
 body div {
     background-color: #CCE6FF;
+ 
+}
+
+p {
+    text-indent:25px;
+    margin-left:40px;
+    margin-right:20px;
+    margin-bottom:16px;
+    line-height:24px;
     
 }
 
 article {
-    clear: both;
-    margin: 0 0px 0 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-article h2 {
-    font-size: 36px;
-    line-height: 44px;
-    margin-top: 10px;
-}
-
-article h3 {
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 4px;
-}
-
-aside {
-    margin: 10px 15px 5px 10px;
-    
-    float:left;
-    
-}
-
-#resume { 
-        margin: 0px;
-        font-size: 14px;
-        line-height:15px;
-    
-}
-
-footer { 
+footer {
     clear: both;
     font-size: 12px; 
     padding: 0 10px 0 10px; 
     text-align:center;
+    
         
 }
 
-.index {
+
     
+.index aside {
+    margin: 20px 15px 5px 10px;
+    float:left;
+}
+
+.biography h2 {
+    font-size: 28px;}
+
+.contacts img {
+    width: 40px;
+    margin: 0 5px 0 10px;
+}
+
+.contacts a {
+    text-decoration:none;
+    }
+.socialmedia {
+    text-align:center;
     
+}
+
+.career img {
+    width: 300px;
+    float:right;
+    margin:20px;
+}
+
     
-    
+.resume li {
+    margin-left:40px;
+    margin-right:20px;
+}
+
+.biography img {
+    float:right;
+    margin-left: 20px;
+    margin-bottom:10px;
+    margin-right:75px; 
+}
+
+.travels img{
+    width:200px;
+    float:left;
+    margin: 20px;
 }
 
 
